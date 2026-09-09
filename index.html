@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salud Flexible</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f7f7f2;
+            color: #24352f;
+        }
+
+        header {
+            background-color: #ffffff;
+            padding: 20px;
+            border-bottom: 1px solid #cccccc;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #2f7d45;
+            margin: 0 0 10px 0;
+        }
+
+        nav a {
+            color: #24352f;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            background-color: #ffffff;
+            width: 85%;
+            margin: 20px auto;
+            padding: 25px;
+            border: 1px solid #dddddd;
+            border-radius: 8px;
+        }
+
+        .hero {
+            text-align: center;
+            background-color: #eef7ef;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+            color: #1f5f34;
+        }
+
+        .boton {
+            display: inline-block;
+            background-color: #2f7d45;
+            color: white;
+            text-decoration: none;
+            padding: 10px 18px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .paso,
+        .beneficio {
+            display: inline-block;
+            vertical-align: top;
+            width: 21%;
+            margin: 1%;
+            padding: 12px;
+            background-color: #f4f8f4;
+            border: 1px solid #d9e5da;
+            border-radius: 6px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th,
+        td {
+            border: 1px solid #cccccc;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #2f7d45;
+            color: white;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 12px;
+            margin-bottom: 5px;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 9px;
+            border: 1px solid #bbbbbb;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            height: 90px;
+        }
+
+        button {
+            background-color: #2f7d45;
+            color: white;
+            border: none;
+            padding: 11px 20px;
+            border-radius: 5px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #183b2b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🥗 Salud Flexible</h1>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#funciona">Cómo funciona</a>
+            <a href="#menus">Menús</a>
+            <a href="#suscripcion">Suscripción</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio" class="hero">
+            <h2>Tu alimentación al ritmo de tu agenda</h2>
+
+            <p>
+                Planes de alimentación por suscripción mensual pensados para
+                ejecutivos con horarios cambiantes.
+            </p>
+
+            <p>
+                Elige tus días, tus preferencias y la modalidad de entrega.
+            </p>
+
+            <a href="#suscripcion" class="boton">Conocer el plan</a>
+        </section>
+
+
+        <section id="funciona">
+            <h2>¿Cómo funciona?</h2>
+
+            <div class="paso">
+                <h3>1. Suscríbete</h3>
+                <p>Registra tus datos y elige la suscripción mensual.</p>
+            </div>
+
+            <div class="paso">
+                <h3>2. Personaliza</h3>
+                <p>Selecciona tus preferencias de menú y tus días.</p>
+            </div>
+
+            <div class="paso">
+                <h3>3. Programa</h3>
+                <p>Indica el horario que mejor se adapte a tu agenda.</p>
+            </div>
+
+            <div class="paso">
+                <h3>4. Recibe</h3>
+                <p>Recibe tu alimentación en la modalidad elegida.</p>
+            </div>
+        </section>
+
+
+        <section id="menus">
+            <h2>Nuestros menús</h2>
+
+            <p>
+                Estas opciones son referenciales para mostrar cómo se presentaría
+                la información del servicio.
+            </p>
+
+            <table>
+                <tr>
+                    <th>Tipo de menú</th>
+                    <th>Descripción</th>
+                    <th>Ideal para</th>
+                </tr>
+
+                <tr>
+                    <td>🥗 Balanceado</td>
+                    <td>Proteína, carbohidratos y vegetales.</td>
+                    <td>Una alimentación variada.</td>
+                </tr>
+
+                <tr>
+                    <td>🍗 Alto en proteína</td>
+                    <td>Mayor presencia de fuentes de proteína.</td>
+                    <td>Personas con jornadas exigentes.</td>
+                </tr>
+
+                <tr>
+                    <td>🥙 Ligero</td>
+                    <td>Opciones más ligeras y sencillas.</td>
+                    <td>Días con menor carga de comida.</td>
+                </tr>
+
+                <tr>
+                    <td>🥬 Vegetariano</td>
+                    <td>Preparaciones basadas en vegetales y otros ingredientes.</td>
+                    <td>Usuarios que prefieren evitar carnes.</td>
+                </tr>
+            </table>
+        </section>
+
+
+        <section id="suscripcion">
+            <h2>Suscripción mensual</h2>
+
+            <p>
+                Salud Flexible propone una suscripción mensual que pueda adaptarse
+                a la agenda del usuario.
+            </p>
+
+            <ul>
+                <li>Selección de días.</li>
+                <li>Elección de tipo de menú.</li>
+                <li>Selección de horario.</li>
+                <li>Modalidad de entrega.</li>
+                <li>Posibilidad de reprogramar en futuras versiones.</li>
+            </ul>
+
+            <a href="#contacto" class="boton">Quiero información</a>
+        </section>
+
+
+        <section id="beneficios">
+            <h2>Beneficios</h2>
+
+            <div class="beneficio">
+                <h3>⏰ Ahorra tiempo</h3>
+                <p>Reduce el tiempo dedicado a buscar qué comer.</p>
+            </div>
+
+            <div class="beneficio">
+                <h3>📅 Planifica</h3>
+                <p>Organiza tus almuerzos con anticipación.</p>
+            </div>
+
+            <div class="beneficio">
+                <h3>🥗 Variedad</h3>
+                <p>Conoce diferentes alternativas de menú.</p>
+            </div>
+
+            <div class="beneficio">
+                <h3>🔄 Flexibilidad</h3>
+                <p>El servicio busca adaptarse a una agenda cambiante.</p>
+            </div>
+        </section>
+
+
+        <section id="contacto">
+            <h2>¿Te interesa?</h2>
+
+            <p>
+                Completa el formulario para solicitar más información sobre
+                Salud Flexible.
+            </p>
+
+            <form>
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+
+                <label for="menu">Menú de interés:</label>
+                <select id="menu" name="menu">
+                    <option>Balanceado</option>
+                    <option>Alto en proteína</option>
+                    <option>Ligero</option>
+                    <option>Vegetariano</option>
+                </select>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"
+                    placeholder="Cuéntanos tus preferencias"></textarea>
+
+                <button type="submit">Enviar información</button>
+            </form>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p><strong>Salud Flexible</strong></p>
+        <p>Tu alimentación al ritmo de tu agenda.</p>
+        <p>Proyecto académico - Taller de Programación Web - 2026</p>
+    </footer>
+
+</body>
+</html>
